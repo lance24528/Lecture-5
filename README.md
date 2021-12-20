@@ -5,6 +5,25 @@
 #include <array>
 #include <math.h>
 using namespace std;
+	
+//Biography
+#include <string>   
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() {
+
+	string name, hTown; int age;
+	cout << "Enter your first name: ";
+	getline(cin, name);
+	cout << "\nEnter your hometown: ";
+	cin >> hTown;
+	cout << "\nEnter your age: ";
+	cin >> age;
+	cout << endl << name << " is from " << hTown << " and is " << age << " years old ";
+
+}
 //Temperature 1
 int main() {
 	
