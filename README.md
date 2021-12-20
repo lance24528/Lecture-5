@@ -21,7 +21,7 @@ int main() {
 	cin >> hTown;
 	cout << "\nEnter your age: ";
 	cin >> age;
-	cout << endl << name << " is from " << hTown << " and is " << age << " years old ";
+	cout << "\n\nYour name is: " << name << " \n\nYou are from " << hTown << "\n\nAnd you are " << age << " years old \n";
 
 }
 //Temperature 1
